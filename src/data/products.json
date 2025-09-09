@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "portfolio-site",
+    "title": "Portfolio Website",
+    "summary": "A responsive portfolio built with Astro and Tailwind.",
+    "technologies": ["Astro", "Tailwind CSS"],
+    "url": "https://example.com/portfolio"
+  },
+  {
+    "slug": "landing-page",
+    "title": "Marketing Landing Page",
+    "summary": "High-converting landing page with A/B tested CTA blocks.",
+    "technologies": ["Astro", "Vanilla JS"],
+    "url": "https://example.com/landing"
+  },
+  {
+    "slug": "ecommerce-ui",
+    "title": "E-commerce UI Kit",
+    "summary": "Reusable product cards, filters, and checkout flow.",
+    "technologies": ["Astro", "TypeScript"],
+    "url": "https://example.com/ecommerce"
+  }
+]

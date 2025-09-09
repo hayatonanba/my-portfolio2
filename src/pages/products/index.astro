@@ -1,0 +1,27 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import products from "../../data/products.json";
+---
+
+<Layout>
+  <main>
+    <h1>Products</h1>
+    <p>プロダクトの一覧です。各詳細ページはスラッグで生成します。</p>
+
+    <ul>
+      {products.map((p) => (
+        <li>
+          <a href={`/products/${p.slug}`}>
+            {p.title}
+          </a>
+          <p>{p.summary}</p>
+        </li>
+      ))}
+    </ul>
+
+    <p>
+      <a href="/">← Back to Home</a>
+    </p>
+  </main>
+</Layout>
+

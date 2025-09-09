@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <main>
+    <h1>Contact</h1>
+    <p>お問い合わせの雛形です。フォーム or 連絡先を配置してください。</p>
+
+    <form method="post" onsubmit="alert('This is a static demo. Replace with your handler.'); return false;">
+      <label>
+        <span>Name</span><br />
+        <input name="name" type="text"/>
+      </label>
+      <label>
+        <span>Email</span><br />
+        <input name="email" type="email"/>
+      </label>
+      <label>
+        <span>Message</span><br />
+        <textarea name="message" rows="5"></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+
+    <p>
+      <a href="/">← Back to Home</a>
+    </p>
+  </main>
+</Layout>
+
