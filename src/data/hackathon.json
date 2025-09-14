@@ -1,0 +1,23 @@
+[
+  {
+    "dateRange": "November 23rd - 25th, 2018",
+    "title": "Hack Western 5",
+    "location": "London, Ontario",
+    "description":
+      "Developed a mobile application which delivered bedtime stories to children using augmented reality."
+  },
+  {
+    "dateRange": "September 14th - 16th, 2018",
+    "title": "Hack The North",
+    "location": "Waterloo, Ontario",
+    "description":
+      "Built a campus-wide real-time events application used by students during the hackathon."
+  },
+  {
+    "dateRange": "March 23rd - 24th, 2018",
+    "title": "FirstNet Public Safety Hackathon",
+    "location": "San Francisco, California",
+    "description":
+      "Created an app to communicate medical data from inside an ambulance to doctors at the hospital."
+  }
+]

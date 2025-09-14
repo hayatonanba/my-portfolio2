@@ -1,28 +1,72 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import ExperienceTimeline from "../components/ExperienceTimeline.astro";
+import hackathon from "../data/hackathon.json";
+import speech from "../data/speech.json";
+import intern from "../data/intern.json";
+
+type Item = {
+  dateRange: string;
+  title: string;
+  location?: string;
+  description?: string;
+  href?: string;
+  cta?: string;
+};
+
+const hackathons = hackathon as Item[];
+const speeches = speech as Item[];
+const internships = intern as Item[];
 ---
 
 <Layout>
-  <main>
-    <h1>Profile</h1>
-    <p>サブタイトル</p>
+  <main class="mx-auto max-w-5xl px-4 py-12">
+    <h1 class="text-3xl md:text-4xl font-bold tracking-tight">Profile</h1>
+    <p class="mt-3 text-white/70">人が日常の中で無意識に求めているものを作りたいです。</p>
 
-    <section>
-      <h2>About</h2>
-      <p>職種 / スキル / 興味のある領域など。</p>
+    <section class="mt-8">
+      <h2 class="text-sm uppercase tracking-wider text-white/50">About</h2>
+      <h3 class="text-xl font-bold tracking-tight">Hayato Namba</h3>
+      <div class="mt-3 rounded-xl border border-white/10 bg-white/5 p-5">      
+        <p>
+          2005年生まれ　青山学院大学学部3年　愛知県生まれ神奈川県在住です。幼い頃からものづくりとサブカルチャーが好きで、編集した動画を親のために作ったり、加工した画像を友達に見せびらかせたりする毎日を送っていました。<br />
+           そして大学2年から現在にかけてwebプログラミングで制作活動をしています。個人、チーム開発、ハッカソンの賞獲得、技術記事の執筆、LT登壇、インターンの参加など多くの経験を経てさまざまなことを毎日学んでいます。
+        </p>
+      </div>
     </section>
 
-    <section>
-      <h2>Experience</h2>
-      <ul>
-        <li>大学 / 期間 / 役割</li>
-        <li>主な実績</li>
+    <section class="mt-8">
+      <h2 class="text-sm uppercase tracking-wider text-white/50">Skill</h2>
+      <ul class="mt-3 grid gap-3">
+        <li class="rounded-xl border border-white/10 bg-white/5 p-5">
+          Astro
+        </li>
       </ul>
     </section>
 
-    <p>
-      <a href="/">← Back to Home</a>
+    <section class="mt-8">
+      <h2 class="text-sm uppercase tracking-wider text-white/50">Intern</h2>
+      <div class="mt-3">
+        <ExperienceTimeline items={internships} />
+      </div>
+    </section>
+
+    <section class="mt-8">
+      <h2 class="text-sm uppercase tracking-wider text-white/50">Hackathon</h2>
+      <div class="mt-3">
+        <ExperienceTimeline items={hackathons} />
+      </div>
+    </section>
+
+    <section class="mt-8">
+      <h2 class="text-sm uppercase tracking-wider text-white/50">Speech</h2>
+      <div class="mt-3">
+        <ExperienceTimeline items={speeches} />
+      </div>
+    </section>
+
+    <p class="mt-10">
+      <a href="/" class="text-white/80 underline hover:text-white">← Back to Home</a>
     </p>
   </main>
 </Layout>
-
