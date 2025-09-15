@@ -13,7 +13,10 @@ const { product } = Astro.props as { product: {
   slug: string;
   title: string;
   summary?: string;
+  whyCreate: string;
+  thoughts: string;
   technologies?: string[];
+  githubLink?: string;
   url?: string;
 } };
 ---
@@ -34,11 +37,18 @@ const { product } = Astro.props as { product: {
       </section>
     )}
 
-    {product.url && (
-      <p class="mt-6">
-        <a class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition" href={product.url} target="_blank" rel="noopener noreferrer">Visit project →</a>
-      </p>
-    )}
+    <div class="flex gap-5">
+      {product.githubLink && (
+        <p class="mt-6">
+          <a class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition" href={product.githubLink} target="_blank" rel="noopener noreferrer">View source on GitHub →</a>
+        </p>
+      )}
+      {product.url && (
+        <p class="mt-6">
+          <a class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition" href={product.url} target="_blank" rel="noopener noreferrer">Visit project →</a>
+        </p>
+      )}
+    </div>
 
     <p class="mt-10">
       <a href="/products" class="text-white/80 underline hover:text-white">← Back to Products</a>

@@ -1,23 +1,37 @@
 [
   {
-    "dateRange": "November 23rd - 25th, 2018",
-    "title": "Hack Western 5",
-    "location": "London, Ontario",
+    "dateRange": "August 25th, 2024",
+    "title": "サポーターズ技育Campハッカソン🥈",
+    "location": "ONLINE",
     "description":
-      "Developed a mobile application which delivered bedtime stories to children using augmented reality."
+      "MaclayRushという本と出会えるSNSを開発。優秀賞を受賞。経緯等の詳細はこちら。"
   },
   {
-    "dateRange": "September 14th - 16th, 2018",
-    "title": "Hack The North",
-    "location": "Waterloo, Ontario",
+    "dateRange": "September 15th, 2024",
+    "title": "サポーターズ技育Campハッカソン🥉",
+    "location": "ONLINE",
     "description":
-      "Built a campus-wide real-time events application used by students during the hackathon."
+      "2024年のサークルポータルサイトを作成しました。努力賞を受賞。"
   },
   {
-    "dateRange": "March 23rd - 24th, 2018",
-    "title": "FirstNet Public Safety Hackathon",
-    "location": "San Francisco, California",
+    "dateRange": "Octorber 19th - 20th, 2024",
+    "title": "Progate Hackathon🥇",
+    "location": "ONLINE",
     "description":
-      "Created an app to communicate medical data from inside an ambulance to doctors at the hospital."
+      "WorkspaceというモダンCSSのコードとして頻出のUIをコピペできるアプリを開発。最優秀賞を受賞。経緯等の詳細はこちら。"
+  },
+  {
+    "dateRange": "November 16th, 2024",
+    "title": "Hack U",
+    "location": "LINEヤフー",
+    "description":
+      "Yonkoma!!!というAIと一緒に4コマ漫画を考えるアプリを開発。"
+  },
+  {
+    "dateRange": "November 16th - 17th, 2024",
+    "title": "技育博",
+    "location": "虎ノ門ヒルズ",
+    "description":
+      "前述のMaclayRushを展示。多くの現役エンジニアの方に触ってフィードバックをいただきました。"
   }
 ]

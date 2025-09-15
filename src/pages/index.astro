@@ -1,4 +1,5 @@
 ---
+import { Highlighter } from '@/components/ui/highlighter';
 import Mockup from '../components/mockup.astro';
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
@@ -14,8 +15,11 @@ import Layout from '../layouts/Layout.astro';
 				<div class="p-6 md:p-10">
 					<h2 class="text-5xl md:text-7xl font-extrabold tracking-tight uppercase">Profile</h2>
 					<p class="mt-6 text-lg md:text-xl leading-relaxed text-white/80">
-						2005年生まれ。青山学院大学在学中。<br />
-						フロントエンド中心のものづくりに取り組んでいます。 <br />
+						2005年生まれ。青山学院大学在学中。 <br />
+						<Highlighter client:visible action="highlight" color="#e94709">
+							Cyber Agent直下のエンジニアコミュニティ CA Tech Lounge所属。 
+        		</Highlighter>{" "}				
+						<br /> フロントエンド中心のものづくりに取り組んでいます。 <br />
 						ハッカソン、LT等の実績は詳細をご覧ください。
 					</p>
 					<a href="/profile" class="mt-8 inline-flex items-center justify-center rounded-full border border-white/30 px-6 py-3 text-sm md:text-base font-semibold tracking-wide hover:bg-white/10 transition w-fit">
@@ -31,7 +35,9 @@ import Layout from '../layouts/Layout.astro';
 					<h2 class="text-5xl md:text-7xl font-extrabold tracking-tight uppercase">Products</h2>
 					<p class="mt-6 text-lg md:text-xl leading-relaxed text-white/80">
 						制作物の一覧と詳細。 <br />
-						技術スタックや作成背景、リンクを掲載しています。
+						<Highlighter client:visible action="highlight" color="#008CAF">
+							技術スタックや作成背景、リンクを掲載しています。
+						</Highlighter>
 					</p>
 					<a href="/products" class="mt-8 inline-flex items-center justify-center rounded-full border border-white/30 px-6 py-3 text-sm md:text-base font-semibold tracking-wide hover:bg-white/10 transition w-fit">
 						VIEW MORE
