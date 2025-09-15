@@ -1,23 +1,37 @@
 [
   {
-    "slug": "portfolio-site",
-    "title": "Portfolio Website",
-    "summary": "A responsive portfolio built with Astro and Tailwind.",
-    "technologies": ["Astro", "Tailwind CSS"],
+    "slug": "maclay-rush",
+    "title": "Maclay Rush 📖",
+    "summary": "ゲームの形式でネット上で本と偶然出会えるSNS",
+    "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "PostgreSQL"],
     "url": "https://example.com/portfolio"
   },
   {
-    "slug": "landing-page",
-    "title": "Marketing Landing Page",
-    "summary": "High-converting landing page with A/B tested CTA blocks.",
-    "technologies": ["Astro", "Vanilla JS"],
-    "url": "https://example.com/landing"
+    "slug": "yonkoma",
+    "title": "Yonkoma!!! 📚",
+    "summary": "AIと一緒に面白い４コマ漫画を考えるWebアプリ",
+    "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "Supabase", "Gemini", "Docker"],
+    "url": "https://example.com/yonkoma"
   },
   {
-    "slug": "ecommerce-ui",
-    "title": "E-commerce UI Kit",
-    "summary": "Reusable product cards, filters, and checkout flow.",
-    "technologies": ["Astro", "TypeScript"],
-    "url": "https://example.com/ecommerce"
+    "slug": "workspace",
+    "title": "Workspace 📐",
+    "summary": "モダンなCSSも対応したレイアウトコピペアプリ",
+    "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion", "Drizzle", "Supabase"],
+    "url": "https://example.com/workspace"
+  },
+  {
+    "slug": "meditation-program",
+    "title": "Meditation Program 🧘‍♂️",
+    "summary": "瞑想、睡眠を快適な音声と呼吸メゾットでサポートするWebアプリ",
+    "technologies": ["Next.js", "Tailwind CSS", "TypeScript"],
+    "url": "https://example.com/meditation"
+  },
+  {
+    "slug": "quizee",
+    "title": "Quizee 🎉",
+    "summary": "超手軽に作って遊べるシンプルなクイズアプリ",
+    "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "hono", "openAPI", "Prisma", "Supabase"],
+    "url": "https://example.com/quizee"
   }
 ]

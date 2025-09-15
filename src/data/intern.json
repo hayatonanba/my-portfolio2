@@ -1,16 +1,16 @@
 [
   {
-    "dateRange": "November 23rd - 25th, 2018",
-    "title": "Hack Western 5",
-    "location": "London, Ontario",
+    "dateRange": "June 28th - 29th, 2025",
+    "title": "ワンキャリア 2daysインターンシップ",
+    "location": "渋谷, 株式会社ワンキャリア",
     "description":
-      "Developed a mobile application which delivered bedtime stories to children using augmented reality."
+      "2daysインターンシップに参加し、グループでのパフォーマンスチューニングを通じて、現場のチーム開発の実態と勘所を理解しました。"
   },
   {
-    "dateRange": "September 14th - 16th, 2018",
-    "title": "Hack The North",
-    "location": "Waterloo, Ontario",
+    "dateRange": "September 8th - 30th, 2025",
+    "title": "GMO Internet 就業型長期インターンシップ",
+    "location": "渋谷, GMOインターネット株式会社",
     "description":
-      "Built a campus-wide real-time events application used by students during the hackathon."
+      "GMO Internet 就業型長期インターンシップに参加し、実際の業務を通じて、Web開発の実践的なスキルを身につけました。"
   }
 ]

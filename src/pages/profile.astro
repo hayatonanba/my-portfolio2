@@ -26,7 +26,9 @@ const internships = intern as Item[];
 
     <section class="mt-8">
       <h2 class="text-sm uppercase tracking-wider text-white/50">About</h2>
-      <h3 class="text-xl font-bold tracking-tight">Hayato Namba</h3>
+      <div class="pt-3 flex items-center gap-5">
+        <h3 class="text-xl font-bold tracking-tight">Hayato Namba</h3> <img class="w-24 h-24 rounded-full" src="/mypic.jpg" alt="My Profile" />
+      </div>
       <div class="mt-3 rounded-xl border border-white/10 bg-white/5 p-5">      
         <p>
           2005年生まれ　青山学院大学学部3年　愛知県生まれ神奈川県在住です。幼い頃からものづくりとサブカルチャーが好きで、編集した動画を親のために作ったり、加工した画像を友達に見せびらかせたりする毎日を送っていました。<br />
@@ -37,9 +39,15 @@ const internships = intern as Item[];
 
     <section class="mt-8">
       <h2 class="text-sm uppercase tracking-wider text-white/50">Skill</h2>
-      <ul class="mt-3 grid gap-3">
-        <li class="rounded-xl border border-white/10 bg-white/5 p-5">
-          Astro
+      <ul class="mt-3 grid gap-3 rounded-xl border border-white/10 bg-white/5 p-5">
+        <li class="">
+          <h1 class="text-sm font-bold">Frontend:</h1>React, Next.js, Astro, TypeScript, Tailwind CSS, Framer Motion etc...
+        </li>
+        <li class="">
+          <h1 class="text-sm font-bold">Backend:</h1>C#, hono, openAPI, oRPC, Prisma, Drizzle ORM
+        </li>
+        <li class="">
+          <h1 class="text-sm font-bold">Others:</h1>Biome, Lefthook, commitLint, Vercel, GitHub, Docker, TursoDB, Supabase, PostgreSQL, GitHub Actions etc...
         </li>
       </ul>
     </section>
