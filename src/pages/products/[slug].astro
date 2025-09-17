@@ -13,6 +13,7 @@ const { product } = Astro.props as { product: {
   slug: string;
   title: string;
   summary?: string;
+  productImage: string;
   whyCreate: string;
   thoughts: string;
   technologies?: string[];
@@ -37,15 +38,27 @@ const { product } = Astro.props as { product: {
       </section>
     )}
 
+    <img src={product.productImage} alt={product.title} class="pt-8 w-full rounded-lg border border-white/10 shadow-lg" />
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-semibold">なぜ作ったか</h2>
+      <p class="mt-4 text-white/80 leading-relaxed">{product.whyCreate}</p>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-semibold">作って考えたこと</h2>
+      <p class="mt-4 text-white/80 leading-relaxed">{product.thoughts}</p>
+    </section>
+
     <div class="flex gap-5">
       {product.githubLink && (
         <p class="mt-6">
-          <a class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition" href={product.githubLink} target="_blank" rel="noopener noreferrer">View source on GitHub →</a>
+          <a class="inline-flex md:text-base items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition" href={product.githubLink} target="_blank" rel="noopener noreferrer">View GitHub →</a>
         </p>
       )}
       {product.url && (
         <p class="mt-6">
-          <a class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition" href={product.url} target="_blank" rel="noopener noreferrer">Visit project →</a>
+          <a class="inline-flex md:text-base items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition" href={product.url} target="_blank" rel="noopener noreferrer">Visit project →</a>
         </p>
       )}
     </div>

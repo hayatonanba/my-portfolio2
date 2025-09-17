@@ -4,6 +4,9 @@
     "title": "Quizee 🎉",
     "summary": "超手軽に作って遊べるシンプルなクイズアプリ",
     "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "hono", "openAPI", "Prisma", "Supabase"],
+    "productImage": "/quizee.png",
+    "whyCreate": "友人と一緒にクイズを作って遊びたいと思ったのがきっかけです。既存のクイズアプリは機能が多すぎたり、UIが複雑だったりして、手軽に楽しむことが難しいと感じました。そこで、シンプルで直感的に使えるクイズアプリを作ることにしました。",
+    "thoughts": "開発を通じて、Next.jsとTailwind CSSの組み合わせが非常に強力であることを再認識しました。また、honoを使うことで、APIの構築が非常にスムーズに行えました。Supabaseを利用することで、リアルタイムのデータ同期も簡単に実現できました。ユーザーからのフィードバックを受けて、UIの改善や新機能の追加を行い、より使いやすいアプリに進化させることができました。",
     "url": "https://quiz-ee.vercel.app/",
     "githubLink": "https://github.com/hayatonanba/quizee"
   },
@@ -12,6 +15,9 @@
     "title": "ORPC Template 🚀",
     "summary": "ORPCを使ったDBからフロントまで型共有されるフルスタックWebアプリのテンプレート",
     "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "ORPC", "Drizzle", "PostgreSQL"],
+    "productImage": "/orpctemp.png",
+    "whyCreate": "ORPCを使ったフルスタックアプリのテンプレートがなかったため、自分で作成しました。型安全なAPI通信の下地を作ってみんなにも使って欲しいと思い、公開しました。",
+    "thoughts": "ORPCはまだ新しい技術ですが、型安全なAPI通信を実現するための強力なツールであると感じました。Drizzleとの組み合わせも非常に相性が良く、開発効率が大幅に向上しました。テンプレートを通じて、他の開発者がも簡単に型安全なフルスタックアプリを構築できるようになることを願っています。",
     "githubLink": "https://github.com/hayatonanba/next-orpc-drizzle_template"
   },
   {
@@ -19,6 +25,9 @@
     "title": "Meditation Program 🧘‍♂️",
     "summary": "瞑想、睡眠を快適な音声と呼吸メゾットでサポートするWebアプリ",
     "technologies": ["Next.js", "Tailwind CSS", "TypeScript"],
+    "productImage": "/meditation.png",
+    "whyCreate": "瞑想や睡眠の質を向上させるための手助けをしたいと思い、Meditation Programを開発しました。忙しい現代人にとって、心身のリラクゼーションは非常に重要であり、手軽にアクセスできる瞑想アプリが必要だと感じました。",
+    "thoughts": "開発改善を通じて、ユーザー体験の重要性を再認識しました。シンプルで直感的なUIを心がけ、ユーザーが迷わずに瞑想や睡眠のセッションを開始できるようにしました。また、音声コンテンツの質にもこだわり、リラックス効果を最大限に引き出すことを目指しました。ユーザーからのフィードバックを受けて、さらなる改善を続けていきたいと考えています。",
     "url": "https://meditationprogram.vercel.app/",
     "githubLink": "https://github.com/hayatonanba/mp-next"
   },
@@ -27,6 +36,9 @@
     "title": "Workspace 📐",
     "summary": "モダンなCSSも対応したレイアウトコピペアプリ",
     "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion", "Drizzle", "Supabase"],
+    "productImage": "/workspace.png",
+    "whyCreate": "Web開発において、レイアウトの実装は時間がかかる作業の一つです。特にモダンなCSS技術を使ったレイアウトは、初心者にとって難易度が高いことがあります。そこで、簡単にレイアウトをコピー＆ペーストできるアプリを作成し、開発者の生産性を向上させることを目指しました。",
+    "thoughts": "開発を通じて、ユーザーが求めるレイアウトの多様性に対応することの重要性を学びました。Framer Motionを使ったアニメーションの追加や、Supabaseを利用したリアルタイムのデータ管理など、最新の技術を取り入れることで、より魅力的なアプリに仕上げることができました。ユーザーからのフィードバックを基に、さらなる機能追加やUI改善を続けていきたいと考えています。",
     "githubLink": "https://github.com/balckowl/nextjs-hackthon"
   },
   {
@@ -34,6 +46,9 @@
     "title": "Yonkoma!!! 📚",
     "summary": "AIと一緒に面白い４コマ漫画を考えるWebアプリ",
     "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "Supabase", "Gemini", "Docker"],
+    "productImage": "/yonkoma.jpg",
+    "whyCreate": "漫画制作のプロセスをより楽しく、クリエイティブにするために、AIを活用した4コマ漫画作成アプリを開発しました。ユーザーが簡単に面白い漫画を作成できるようにすることで、漫画制作の敷居を下げ、より多くの人々に楽しんでもらいたいと考えました。",
+    "thoughts": "開発を通じて、AI技術の可能性とその応用方法について深く学ぶことができました。Geminiを利用することで、ユーザーのアイデアを引き出し、ユニークな漫画を生成することができました。",
     "githubLink": "https://github.com/balckowl/ai-manga"
   },
   {
@@ -41,6 +56,9 @@
     "title": "Maclay Rush 📖",
     "summary": "ゲームの形式でネット上で本と偶然出会えるSNS",
     "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "PostgreSQL"],
+    "productImage": "/maclay.png",
+    "whyCreate": "読書の楽しさを広めるために、ゲーム要素を取り入れたSNSを開発しました。ユーザーが偶然に本と出会い、新しい読書体験を楽しむことができるプラットフォームを提供することを目指しました。",
+    "thoughts": "開発を通じて、ユーザーエクスペリエンスの重要性を再認識しました。ゲーム要素を取り入れることで、ユーザーがより積極的に本と関わるようになり、読書の楽しさを再発見できるようになりました。PostgreSQLを利用したデータ管理もスムーズに行え、安定したサービス提供が可能となりました。",
     "url": "https://maclay-rush.vercel.app/",
     "githubLink": "https://github.com/Sora339/Maclay-Rush"
   }
