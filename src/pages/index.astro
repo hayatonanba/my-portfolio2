@@ -26,7 +26,7 @@ import Layout from '../layouts/Layout.astro';
 						VIEW MORE
 					</a>
 				</div>
-				<img src="/myprofile.JPG" alt="俺の足が綺麗な写真" class="hidden md:block h-48 w-48 md:h-72 md:w-72 rounded-full object-cover" />
+				<img src="/myprofile.JPG" alt="俺の足が綺麗な写真" class="h-48 w-48 md:h-72 md:w-72 rounded-full object-cover" />
 			</article>
 
 			<!-- PRODUCTS: responsive layout -->
@@ -38,14 +38,12 @@ import Layout from '../layouts/Layout.astro';
 					<p class="mt-6 text-lg md:text-xl leading-relaxed text-white/80">
 						制作物の一覧と詳細。 <br />
 						技術スタックや作成背景、リンクを掲載しています。
-					</p>								
-				</div>
-				<Mockup class="self-center md:self-auto" />
-				<div class="p-6 md:p-10">
+					</p>
 					<a href="/products" class="mt-8 inline-flex items-center justify-center rounded-full border border-white/30 px-6 py-3 text-sm md:text-base font-semibold tracking-wide hover:bg-white/10 transition w-fit">
 						VIEW MORE
-					</a>
+					</a>								
 				</div>
+				<Mockup class="self-center md:self-auto" />
 			</article>
 
 			<!-- CONTACT: simple vertical card -->
